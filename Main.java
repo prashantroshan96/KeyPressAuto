@@ -9,7 +9,6 @@ public class Main {
     static Scanner scan = new Scanner(System.in);
 
     public static void runTheSpaceBar() throws AWTException, InterruptedException {
-
         Robot robot = new Robot();
         robot.keyPress(KeyEvent.VK_SPACE);
     }
